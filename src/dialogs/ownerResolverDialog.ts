@@ -6,11 +6,12 @@ import {
   WaterfallDialog,
   WaterfallStepContext
 } from 'botbuilder-dialogs';
+import { HelperDialog } from './helperDialog';
 
 const TEXT_PROMPT = 'textPrompt';
 const WATERFALL_DIALOG = 'waterfallDialog';
 
-export class OwnerResolverDialog extends ComponentDialog {
+export class OwnerResolverDialog extends HelperDialog {
   
   private static async ownerPromptValidator(promptContext: PromptValidatorContext<string>): Promise<boolean> {
     if (promptContext.recognized.succeeded) {

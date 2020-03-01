@@ -1,10 +1,10 @@
-# simon-blog-bot-v3
+# simon-blog-bot-v4
 
 Develop a Bot step by step, introducing more concepts as we go
 
-This is the Bot that is used in the Dialog Blog post #3.
+This is the Bot that is used in the Interruptions Blog post #4.
 
-[URL](https://simonagren.github.io/bot-framework-series-3)
+[URL](https://simonagren.github.io/azurebot-nodejs-part4)
 
 
 ## Prerequisites
